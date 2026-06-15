@@ -1,0 +1,299 @@
+source_file_id,model,model_type,model_format,framework,engine_family,engine_variant,hardware,operating_system,os_distribution,threads,evaluator,total_images,evaluation_time_s,top1_pct,top5_pct,latency_ms
+S001,alexnet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1494.27,55.1,76.3,1080.05
+S001,googlenet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,2655.0,67.3,88.1,2252.97
+S001,resnet50,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,5640.06,70.6,89.6,4846.89
+S001,resnet18,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,2081.91
+S001,squeezenet_v1_1,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,794.05,56.0,78.6,614.26
+S001,mobilenet_v2,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1403.55,69.5,89.5,1178.59
+S001,alexnet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,7972.77,55.1,76.3,1339.8
+S001,vgg16,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,4263.65
+S001,googlenet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,3667.72,67.3,88.1,896.79
+S001,resnet50,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,9361.62,70.6,89.6,1943.56
+S001,resnet18,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,950.64
+S001,squeezenet_v1_1,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1164.68,56.1,78.6,247.37
+S001,mobilenet_v2,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,2032.99,69.5,89.5,602.46
+S001,alexnet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,571.25,55.1,76.3,4053.9
+S001,resnet50,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,3109.72,70.6,89.6,1727.84
+S001,resnet18,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,674.09
+S001,squeezenet_v1_1,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,404.74,56.0,78.6,2068.72
+S001,mobilenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,556.02,69.5,89.5,286.95
+S001,shufflenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,45.84
+S001,alexnet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,445.07,55.1,76.3,561.12
+S001,googlenet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,577.0,67.3,88.1,958.04
+S001,resnet50,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1494.79,70.6,89.6,2242.19
+S001,resnet18,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1058.92
+S001,squeezenet_v1_1,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,164.33,56.0,78.6,242.24
+S001,mobilenet_v2,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,230.49,69.5,89.5,315.85
+S001,alexnet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1570.14
+S001,googlenet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1368.4
+S001,resnet50,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,3308.11
+S001,resnet18,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1453.75
+S001,squeezenet_v1_1,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,383.25
+S001,mobilenet_v2,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1427.2
+S001,alexnet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,430.32
+S001,vgg16,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,8973.93
+S001,googlenet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,735.71
+S001,resnet50,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1330.67
+S001,squeezenet_v1_1,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,217.82
+S001,mobilenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,294.21
+S001,shufflenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,340.57
+S001,alexnet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,2293.5
+S001,googlenet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,990.75
+S001,resnet50,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,2445.79
+S001,squeezenet_v1_1,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,236.9
+S001,mobilenet_v2,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1331.36
+S001,inception_v1,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,839.45
+S001,resnet_v1_50,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,2023.91
+S001,resnet_v2_101hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,7694.38
+S001,squeezenet_v1_1hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,463.65
+S001,mobilenet_v1_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,336.67
+S001,mobilenet_v1_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,196.09
+S001,mobilenet_v2_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,246.48
+S001,mobilenet_v2_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,151.6
+S001,resnet50,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,4169.09,70.6,89.6,1803.05
+S001,resnet18,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,806.44
+S001,squeezenet_v1_1,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,476.07,55.9,78.6,240.55
+S001,mobilenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,562.91,69.5,89.5,295.88
+S001,alexnet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1673.92,55.1,76.3,
+S001,googlenet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,2667.84,67.3,88.1,
+S001,mobilenet_v2,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1461.35,69.0,88.3,
+S001,resnet50,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,6256.8,72.6,90.3,
+S001,squeezenet_v1_1,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,723.78,55.4,79.1,
+S001,alexnet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,3740.7,55.1,76.3,
+S001,googlenet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1613.63,67.3,88.1,
+S001,mobilenet_v2,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,687.84,69.0,88.1,
+S001,resnet50,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,3889.0,72.4,90.3,
+S001,squeezenet_v1_1,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,427.89,55.5,79.1,
+S001,mobilenet_v2,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,555.6,69.0,88.1,
+S001,resnet50,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,3703.8,72.4,90.3,
+S001,squeezenet_v1_1,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,378.73,55.4,79.0,
+S001,mobilenet_v2,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,541.26,39.2,62.5,
+S001,resnet50,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,4156.87,72.4,90.3,
+S001,squeezenet_v1_1,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,452.29,55.5,79.1,
+S002,alexnet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,472.64,55.1,76.3,470.55
+S002,vgg16,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,7407.99
+S002,googlenet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1188.14,67.3,88.1,1175.03
+S002,resnet50,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,2103.42,70.6,89.6,2135.73
+S002,resnet18,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,980.7
+S002,squeezenet_v1_1,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,315.33,56.0,78.6,312.31
+S002,mobilenet_v2,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,726.08,69.5,89.5,737.35
+S002,alexnet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,523.34,55.1,76.3,438.0
+S002,vgg16,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1768.6
+S002,googlenet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,385.94,67.3,88.1,395.06
+S002,resnet50,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,870.55,70.6,89.6,937.22
+S002,resnet18,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,399.15
+S002,squeezenet_v1_1,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,105.62,56.1,78.6,106.1
+S002,mobilenet_v2,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,242.0,69.5,89.5,263.39
+S002,alexnet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,180.97,55.1,76.3,1900.91
+S002,vgg16,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1443.45
+S002,resnet50,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,757.71,70.6,89.6,778.64
+S002,resnet18,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,295.27
+S002,squeezenet_v1_1,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,94.58,56.0,78.6,948.03
+S002,mobilenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,143.54,69.5,89.5,140.69
+S002,shufflenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,21.7
+S002,alexnet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,162.43,55.1,76.3,241.36
+S002,vgg16,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,3654.46
+S002,googlenet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,214.88,67.3,88.1,421.74
+S002,resnet50,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,479.05,70.6,89.6,948.24
+S002,resnet18,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,460.89
+S002,squeezenet_v1_1,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,56.8,56.0,78.6,101.05
+S002,mobilenet_v2,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,80.33,69.5,89.5,127.12
+S002,alexnet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,493.43
+S002,vgg16,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,4324.73
+S002,googlenet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,569.19
+S002,resnet50,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1352.74
+S002,resnet18,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,586.11
+S002,squeezenet_v1_1,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,157.65
+S002,mobilenet_v2,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,530.53
+S002,alexnet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,207.64
+S002,vgg16,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1372.65
+S002,googlenet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,339.35
+S002,resnet50,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,668.56
+S002,squeezenet_v1_1,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,100.14
+S002,mobilenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,132.23
+S002,shufflenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,138.75
+S002,alexnet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,289.92
+S002,googlenet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,497.44
+S002,resnet50,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,1199.62
+S002,squeezenet_v1_1,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,125.36
+S002,mobilenet_v2,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,613.52
+S002,inception_v1,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,429.89
+S002,resnet_v1_50,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,980.73
+S002,resnet_v2_101hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,3469.19
+S002,squeezenet_v1_1hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,260.98
+S002,mobilenet_v1_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,170.36
+S002,mobilenet_v1_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,96.97
+S002,mobilenet_v2_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,123.23
+S002,mobilenet_v2_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,76.86
+S002,resnet50,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,879.61,70.6,89.6,883.88
+S002,resnet18,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,417.74
+S002,squeezenet_v1_1,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,110.6,55.9,78.6,96.69
+S002,mobilenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,132.14,69.5,89.5,123.58
+S002,shufflenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,,,,,,18.27
+S002,alexnet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,474.35,55.1,76.3,
+S002,googlenet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,1208.64,67.3,88.1,
+S002,mobilenet_v2,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,745.11,69.0,88.3,
+S002,resnet50,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,2239.53,72.6,90.3,
+S002,squeezenet_v1_1,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,301.34,55.4,79.1,
+S002,alexnet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,522.59,55.1,76.3,
+S002,googlenet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,392.0,67.3,88.1,
+S002,mobilenet_v2,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,198.5,69.0,88.1,
+S002,resnet50,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,924.65,72.4,90.3,
+S002,squeezenet_v1_1,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,100.86,55.5,79.1,
+S002,mobilenet_v2,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,142.9,69.0,88.1,
+S002,resnet50,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,906.21,72.4,90.3,
+S002,squeezenet_v1_1,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,90.83,55.4,79.0,
+S002,mobilenet_v2,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,132.42,39.2,62.5,
+S002,resnet50,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,930.02,72.4,90.3,
+S002,squeezenet_v1_1,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Debian-aarch64,Debian GNU/Linux 10 (buster) aarch64,1,ilsvrc2012,1000.0,106.96,55.5,79.1,
+S003,alexnet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1364.84,55.1,76.3,1354.44
+S003,vgg16,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,22810.8
+S003,googlenet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2622.59,67.3,88.1,2653.14
+S003,resnet50,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,6045.54,70.6,89.6,6093.31
+S003,resnet18,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2708.17
+S003,squeezenet_v1_1,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,675.4,56.0,78.6,660.03
+S003,mobilenet_v2,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1226.58,69.5,89.5,1224.97
+S003,alexnet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2880.61,55.1,76.3,2396.95
+S003,vgg16,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,17397.9
+S003,googlenet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,3420.45,67.3,88.1,3171.24
+S003,resnet50,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,8258.89,70.6,89.6,7917.9
+S003,resnet18,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2574.0
+S003,squeezenet_v1_1,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1004.34,56.1,78.6,948.39
+S003,mobilenet_v2,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2062.48,69.5,89.5,1970.17
+S003,alexnet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,436.13,55.1,76.3,3850.72
+S003,googlenet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,707.98,67.3,88.1,6646.68
+S003,resnet50,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1827.21,70.6,89.6,1688.39
+S003,resnet18,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,630.7
+S003,squeezenet_v1_1,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,234.47,56.0,78.6,2135.35
+S003,mobilenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,326.44,69.5,89.5,299.11
+S003,shufflenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,40.24
+S003,alexnet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1238.24,55.1,76.3,1573.21
+S003,vgg16,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,56587.2
+S003,googlenet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1978.29,67.3,88.1,2029.87
+S003,resnet50,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,3922.34,70.6,89.6,4034.52
+S003,resnet18,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1911.89
+S003,squeezenet_v1_1,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,478.82,56.0,78.6,470.39
+S003,mobilenet_v2,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,826.63,69.5,89.5,822.84
+S003,alexnet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1254.73
+S003,googlenet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2148.76
+S003,resnet50,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,4755.35
+S003,resnet18,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2114.43
+S003,squeezenet_v1_1,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,526.78
+S003,mobilenet_v2,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1461.22
+S003,alexnet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,376.7
+S003,vgg16,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,3900.98
+S003,googlenet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,735.04
+S003,resnet50,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1244.6
+S003,squeezenet_v1_1,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,230.52
+S003,mobilenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,290.73
+S003,shufflenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,487.04
+S003,alexnet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1075.44
+S003,googlenet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1410.05
+S003,resnet50,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,3496.19
+S003,squeezenet_v1_1,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,340.09
+S003,mobilenet_v2,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2180.46
+S003,inception_v1,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1171.18
+S003,resnet_v1_50,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,2845.68
+S003,resnet_v2_101hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,10260.2
+S003,squeezenet_v1_1hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,695.14
+S003,mobilenet_v1_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,526.48
+S003,mobilenet_v1_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,423.06
+S003,mobilenet_v2_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,364.95
+S003,mobilenet_v2_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,447.85
+S003,resnet50,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2288.11,70.6,89.6,2189.12
+S003,resnet18,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,1078.82
+S003,squeezenet_v1_1,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,266.86,55.9,78.6,238.8
+S003,mobilenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,304.2,69.5,89.5,279.82
+S003,shufflenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,,,,,,40.38
+S003,alexnet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1379.63,55.1,76.3,
+S003,googlenet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2633.18,67.3,88.1,
+S003,mobilenet_v2,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1264.13,69.0,88.3,
+S003,resnet50,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,6428.38,72.6,90.3,
+S003,squeezenet_v1_1,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,631.51,55.4,79.1,
+S003,alexnet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2889.94,55.1,76.3,
+S003,googlenet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,3428.45,67.3,88.1,
+S003,mobilenet_v2,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,1979.98,69.0,88.1,
+S003,resnet50,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,9941.13,72.4,90.3,
+S003,squeezenet_v1_1,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,937.35,55.5,79.1,
+S003,mobilenet_v2,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,330.01,69.0,88.1,
+S003,resnet50,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2270.23,72.4,90.3,
+S003,squeezenet_v1_1,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,221.84,55.4,79.0,
+S003,mobilenet_v2,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,303.92,39.2,62.5,
+S003,resnet50,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,2400.18,72.4,90.3,
+S003,squeezenet_v1_1,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 3 Model B Plus Rev 1.3,Raspbian-armv7l,Raspbian GNU/Linux 9.6 (stretch) armv7l,1,ilsvrc2012,1000.0,256.59,55.5,79.1,
+S004,alexnet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,582.33,55.1,76.3,569.98
+S004,vgg16,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,9862.3
+S004,googlenet,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1284.98,67.3,88.1,1294.55
+S004,resnet50,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,2816.96,70.6,89.6,2800.56
+S004,resnet18,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,1257.93
+S004,squeezenet_v1_1,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,363.51,56.0,78.6,371.67
+S004,mobilenet_v2,caffe,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,656.26,69.5,89.5,650.15
+S004,alexnet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,996.98,55.1,76.3,918.27
+S004,vgg16,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,4830.21
+S004,googlenet,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1242.19,67.3,88.1,1145.02
+S004,resnet50,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,2591.48,70.6,89.6,2306.22
+S004,resnet18,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,917.58
+S004,squeezenet_v1_1,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,320.67,56.1,78.6,265.37
+S004,mobilenet_v2,caffe,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,640.5,69.5,89.5,498.34
+S004,alexnet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,190.17,55.1,76.3,1780.44
+S004,vgg16,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,1401.74
+S004,googlenet,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,291.3,67.3,88.1,2915.91
+S004,resnet50,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,753.23,70.6,89.6,759.38
+S004,resnet18,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,268.83
+S004,squeezenet_v1_1,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,104.0,56.0,78.6,967.43
+S004,mobilenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,156.75,69.5,89.5,150.97
+S004,shufflenet_v2,caffe,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,20.96
+S004,alexnet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,559.51,55.1,76.3,561.46
+S004,vgg16,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,7754.74
+S004,googlenet,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,917.09,67.3,88.1,949.96
+S004,resnet50,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1947.71,70.6,89.6,2000.14
+S004,resnet18,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,956.46
+S004,squeezenet_v1_1,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,255.88,56.0,78.6,254.61
+S004,mobilenet_v2,caffe,Float32,Tengine v1.9.0,Tengine,Tengine v1.9.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,432.39,69.5,89.5,446.71
+S004,alexnet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,560.09
+S004,vgg16,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,7749.03
+S004,googlenet,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,979.45
+S004,resnet50,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,2364.8
+S004,resnet18,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,1034.54
+S004,squeezenet_v1_1,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,274.32
+S004,mobilenet_v2,caffe,Float32,Caffe-SSD,Caffe-SSD,Caffe-SSD,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,860.97
+S004,alexnet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,219.45
+S004,googlenet,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,357.33
+S004,resnet50,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,654.38
+S004,squeezenet_v1_1,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,111.98
+S004,mobilenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,103.67
+S004,shufflenet_v2,,Float32,ARM Compute Library v19.11,ARM Compute Library,ARM Compute Library,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,150.68
+S004,alexnet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,426.09,55.1,76.3,399.47
+S004,googlenet,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,762.22,67.3,88.1,734.65
+S004,resnet50,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1875.25,34.5,53.8,1843.87
+S004,squeezenet_v1_1,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,211.5,56.0,78.6,193.48
+S004,mobilenet_v2,caffe,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,963.47,69.5,89.5,936.44
+S004,inception_v1tfhm,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,653.4
+S004,resnet_v1_50tfhm,tensorflow,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,1513.42
+S004,resnet_v2_101hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,5567.31
+S004,squeezenet_v1_1hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,405.34
+S004,mobilenet_v1_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,274.12
+S004,mobilenet_v1_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,178.68
+S004,mobilenet_v2_1_224hm,tensorflow-lite,Float32,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,182.05
+S004,mobilenet_v2_1_224_quanthm,tensorflow-lite,Int8,TensorFlow Lite 2.0.0,TensorFlow Lite,TensorFlow Lite 2.0.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,187.62
+S004,vgg16,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,1543.83
+S004,resnet50,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,979.59,70.6,89.6,819.57
+S004,resnet18,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,,,,,,317.86
+S004,squeezenet_v1_1,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,127.96,55.9,78.6,101.63
+S004,mobilenet_v2,caffe,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,157.01,69.5,89.5,171.33
+S004,alexnet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,583.05,55.1,76.3,
+S004,googlenet,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1289.24,67.3,88.1,
+S004,mobilenet_v2,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,684.33,69.0,88.3,
+S004,resnet50,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,2978.92,72.6,90.3,
+S004,squeezenet_v1_1,onnx,Float32,OpenCV 4.1.1,OpenCV,OpenCV 4.1.1,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,344.2,55.4,79.1,
+S004,alexnet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,993.32,55.1,76.3,
+S004,googlenet,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1270.85,67.3,88.1,
+S004,mobilenet_v2,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,625.72,69.0,88.1,
+S004,resnet50,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,2905.81,72.4,90.3,
+S004,squeezenet_v1_1,onnx,Float32,NCNN commit 9593783,NCNN,NCNN commit 9593783,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,298.11,55.5,79.1,
+S004,mobilenet_v2,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,151.22,69.0,88.1,
+S004,resnet50,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,944.49,72.4,90.3,
+S004,squeezenet_v1_1,onnx,Float32,MNN 0.2.1.5,MNN,MNN 0.2.1.5,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,96.97,55.4,79.0,
+S004,mobilenet_v2,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,156.47,39.2,62.5,
+S004,resnet50,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,1020.24,72.4,90.3,
+S004,squeezenet_v1_1,onnx,Float32,Paddle Lite 2.1.0,Paddle Lite,Paddle Lite 2.1.0,Raspberry Pi 4 Model B Rev 1.1,Raspbian-armv7l,Raspbian GNU/Linux 10 (buster) armv7l,1,ilsvrc2012,1000.0,123.26,55.5,79.1,

@@ -1,0 +1,13 @@
+dimension,item,recorded_value,reference_url
+Platform/OS,NVIDIA Jetson Nano,Ubuntu 18.04.4 LTS aarch64,https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+Platform/OS,Raspberry Pi 3 Model B+,Debian GNU/Linux 10 aarch64; Raspbian GNU/Linux 9.6 armv7l,https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
+Platform/OS,Raspberry Pi 4 Model B,Debian GNU/Linux 10 aarch64; Raspbian GNU/Linux 10 armv7l; Ubuntu 20.04.1 LTS aarch64,https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+Inference engine,ARM Compute Library,v19.11; v20.02.1; v20.08,https://github.com/ARM-software/ComputeLibrary
+Inference engine,Caffe-SSD,SSD branch,https://github.com/weiliu89/caffe/tree/ssd
+Inference engine,MNN,0.2.1.5; 1.0.0; 1.1.0,https://github.com/alibaba/MNN
+Inference engine,NCNN,commits 9593783; 6f2ef19; b766c8c,https://github.com/Tencent/ncnn
+Inference engine,OpenCV,4.1.1; 4.2.0,https://github.com/opencv/opencv
+Inference engine,Paddle Lite,2.1.0; 2.3.0,https://github.com/PaddlePaddle/Paddle-Lite
+Inference engine,Tengine,v1.9.0; Tengine Lite v1.0,https://github.com/OAID/Tengine
+Inference engine,TensorFlow Lite,2.0.0; 2.1.0; 2.5.0,https://github.com/tensorflow/tensorflow
+Inference engine,TVM,0.7.0; 0.8.0,https://github.com/apache/tvm

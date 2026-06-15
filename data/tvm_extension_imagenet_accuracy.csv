@@ -1,0 +1,16 @@
+source_file_id,framework,version,variant,model,total_images,top1_pct,top5_pct,raw_time_s
+S001,tvm,v0.8.0,validation,alexnet,10000,54.45,76.77,1547.946324
+S001,tvm,v0.8.0,validation,efficientnet_b0,10000,76.93,92.93,1284.856485
+S001,tvm,v0.8.0,validation,efficientnet_b1,10000,77.17,92.99,1744.662714
+S001,tvm,v0.8.0,validation,efficientnet_b2,10000,77.72,93.37,1987.046339
+S001,tvm,v0.8.0,validation,efficientnet_b3,10000,77.84,93.8,2583.278954
+S001,tvm,v0.8.0,validation,efficientnet_b4,10000,78.62,93.91,3850.975661
+S001,tvm,v0.8.0,validation,googlenet,10000,68.35,88.4,1775.516004
+S001,tvm,v0.8.0,validation,mnasnet1_0,10000,72.24,90.54,842.168903
+S001,tvm,v0.8.0,validation,mobilenet_v2,10000,70.49,88.95,797.442873
+S001,tvm,v0.8.0,validation,mobilenet_v3_large,10000,72.6,90.31,746.483104
+S001,tvm,v0.8.0,validation,mobilenet_v3_small,10000,65.44,85.5,414.965022
+S001,tvm,v0.8.0,validation,resnet18,10000,68.31,88.2,1459.50035
+S001,tvm,v0.8.0,validation,resnet50,10000,75.46,91.86,3577.126933
+S001,tvm,v0.8.0,validation,squeezenet1_0,10000,55.99,78.44,1112.933017
+S001,tvm,v0.8.0,validation,squeezenet1_1,10000,55.92,78.9,653.313735

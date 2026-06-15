@@ -1,0 +1,44 @@
+{
+  "package": "Deployment-stack effects in multi-engine DNN inference on ARM edge platforms",
+  "data_files": [
+    {
+      "file": "data/base_imagenet_accuracy.csv",
+      "rows": 298,
+      "columns": 17
+    },
+    {
+      "file": "data/base_latency_measurements.csv",
+      "rows": 1592,
+      "columns": 17
+    },
+    {
+      "file": "data/deployment_stack_identifiers.csv",
+      "rows": 12,
+      "columns": 4
+    },
+    {
+      "file": "data/retinaface_application_measurements.csv",
+      "rows": 72,
+      "columns": 9
+    },
+    {
+      "file": "data/tvm_extension_imagenet_accuracy.csv",
+      "rows": 15,
+      "columns": 9
+    },
+    {
+      "file": "data/tvm_extension_latency.csv",
+      "rows": 276,
+      "columns": 11
+    }
+  ],
+  "generated_outputs": {
+    "figures": [
+      "imagenet_accuracy_latency_rpi4_debian.pdf",
+      "multi_engine_relative_latency.pdf",
+      "multi_engine_relative_latency.png",
+      "retinaface_latency_memory.pdf",
+      "tvm_optimization_scaling.pdf"
+    ]
+  }
+}
