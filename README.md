@@ -18,7 +18,7 @@ The main matched-comparison result shows that inference latency is strongly depl
 
 ## Deployment Stack
 
-| Dimension | Item | Recorded OS configuration |
+| Dimension | Item | Recorded configuration |
 | --- | --- | --- |
 | Platform/OS | [NVIDIA Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) | Ubuntu 18.04.4 LTS aarch64 |
 | Platform/OS | [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) | Debian GNU/Linux 10 aarch64; Raspbian GNU/Linux 9.6 armv7l |
