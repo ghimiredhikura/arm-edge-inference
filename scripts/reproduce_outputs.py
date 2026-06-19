@@ -178,7 +178,7 @@ def plot_multi_engine_latency() -> None:
     ax.text(
         0.01,
         0.97,
-        "Four-thread reference records; f = fastest cases",
+        "Four-thread reference measurements; f = fastest cases",
         transform=ax.transAxes,
         va="top",
         ha="left",
@@ -382,11 +382,11 @@ def plot_tvm() -> None:
         values="latency_ms",
         aggfunc="first",
     ).reset_index()
-    paired = pivot.dropna(subset=["optimized", "unoptimized"]).copy()
-    paired["optimization_speedup"] = paired["unoptimized"] / paired["optimized"]
+    paired = pivot.dropna(subset=["autotvm_tuned", "baseline"]).copy()
+    paired["tuning_speedup"] = paired["baseline"] / paired["autotvm_tuned"]
 
-    optimized = latency[latency["variant"].eq("optimized")].copy()
-    scaling = optimized.pivot_table(
+    tuned = latency[latency["variant"].eq("autotvm_tuned")].copy()
+    scaling = tuned.pivot_table(
         index=["model", "size_mb", "params_m", "gmacs"],
         columns="cpu_cores",
         values="latency_ms",
@@ -398,7 +398,7 @@ def plot_tvm() -> None:
     fig, axes = plt.subplots(1, 2, figsize=(7.1, 3.35), gridspec_kw={"width_ratios": [1, 1.25]})
     axes[0].boxplot(
         [
-            paired.loc[paired["cpu_cores"].eq(core), "optimization_speedup"].to_numpy()
+            paired.loc[paired["cpu_cores"].eq(core), "tuning_speedup"].to_numpy()
             for core in [1, 2, 3, 4]
         ],
         patch_artist=True,
@@ -418,8 +418,8 @@ def plot_tvm() -> None:
     axes[0].axhline(1.0, color="#333333", linewidth=0.7, linestyle="--")
     axes[0].set_xticklabels(["1", "2", "3", "4"])
     axes[0].set_xlabel("CPU cores")
-    axes[0].set_ylabel("Unoptimized/optimized latency")
-    axes[0].set_title("(a) Optimization speed-up")
+    axes[0].set_ylabel("Baseline/tuned latency")
+    axes[0].set_title("(a) AutoTVM tuning speed-up")
     axes[0].grid(axis="y", color="#D6D6D6", linewidth=0.45)
     axes[0].set_axisbelow(True)
 
@@ -427,15 +427,15 @@ def plot_tvm() -> None:
     labels = [model_label(name) for name in top["model"]]
     axes[1].barh(labels, top["cpu_scaling_speedup"], color="#4F8F5B", height=0.62)
     axes[1].axvline(1.0, color="#333333", linewidth=0.7, linestyle="--")
-    axes[1].set_xlabel("1-core/4-core latency")
-    axes[1].set_title("(b) Largest optimized CPU-scaling gains")
+    axes[1].set_xlabel("Tuned 1-core/4-core latency")
+    axes[1].set_title("(b) Largest tuned CPU-scaling gains")
     axes[1].grid(axis="x", color="#D6D6D6", linewidth=0.45)
     axes[1].set_axisbelow(True)
     axes[1].set_xlim(0, max(3.4, top["cpu_scaling_speedup"].max() * 1.12))
     for y, value in enumerate(top["cpu_scaling_speedup"]):
         axes[1].text(value + 0.04, y, f"{value:.2f}", va="center", ha="left", fontsize=7.2)
     fig.tight_layout(w_pad=1.2)
-    save(fig, "tvm_optimization_scaling")
+    save(fig, "tvm_tuning_scaling")
 
 
 def write_run_summary() -> None:

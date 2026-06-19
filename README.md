@@ -4,7 +4,7 @@ This repository provides benchmark measurements, analysis scripts, and supplemen
 
 **Deployment-Stack Effects in Multi-Engine Deep Neural Network Inference on ARM Edge Platforms**
 
-The data support an empirical study of deployment-stack effects in deep neural network inference on ARM edge platforms. The analyzed stack dimensions include target board, operating-system configuration, inference engine, model or workload group, runtime configuration, latency, accuracy, and application-level memory measurements where available.
+The data support an empirical study of deployment-stack effects in deep neural network inference on ARM edge platforms. The analyzed stack dimensions include target board, operating-system configuration, inference engine, model or workload group, runtime configuration, latency, accuracy, and application-level memory measurements for the RetinaFace workload.
 
 The repository is organized around analysis-ready CSV files, regenerated figures, and a compact reproduction script.
 
@@ -37,7 +37,7 @@ The main matched-comparison result shows that inference latency is strongly depl
 
 - `data/`: CSV measurements and deployment-stack identifiers.
 - `outputs/figures/`: figures regenerated from the CSV data.
-- `scripts/reproduce_outputs.py`: regenerates supplementary check figures from the included CSV files.
+- `scripts/reproduce_outputs.py`: regenerates supplementary figures from the included CSV files.
 - `requirements.txt`: Python dependencies.
 
 ## Reproduction
@@ -54,7 +54,7 @@ Regenerate supplementary outputs:
 python scripts/reproduce_outputs.py
 ```
 
-The script writes check figures under `outputs/figures/` and records the run summary in `outputs/reproduction_summary.json`.
+The script writes figures under `outputs/figures/` and stores the run summary in `outputs/reproduction_summary.json`.
 
 ## Measurement Scope
 

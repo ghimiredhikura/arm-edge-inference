@@ -38,7 +38,7 @@
       "multi_engine_relative_latency.pdf",
       "multi_engine_relative_latency.png",
       "retinaface_latency_memory.pdf",
-      "tvm_optimization_scaling.pdf"
+      "tvm_tuning_scaling.pdf"
     ]
   }
 }
