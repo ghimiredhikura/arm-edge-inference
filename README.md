@@ -35,7 +35,7 @@ The main matched-comparison result shows that inference latency is strongly depl
 
 - `data/`: CSV measurements and deployment-stack identifiers.
 - `outputs/figures/`: figures regenerated from the CSV data.
-- `scripts/reproduce_outputs.py`: regenerates supplementary figures from the included CSV files.
+- `scripts/produce_outputs.py`: generates plots from the included CSV files.
 - `requirements.txt`: Python dependencies.
 
 ## Reproduction
