@@ -1,6 +1,6 @@
 # Deployment-Stack Effects in ARM Edge Inference
 
-This repository provides benchmark measurements, analysis scripts, and supplementary outputs for the manuscript:
+This repository provides benchmark measurements, analysis scripts, and output plots for the manuscript:
 
 **Deployment-Stack Effects in Multi-Engine Deep Neural Network Inference on ARM Edge Platforms**
 
