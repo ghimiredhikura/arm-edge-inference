@@ -8,8 +8,6 @@ The data support an empirical study of deployment-stack effects in deep neural n
 
 The repository is organized around analysis-ready CSV files, regenerated figures, and a compact reproduction script.
 
-Repository URL: <https://github.com/ghimiredhikura/arm-edge-inference>
-
 ## Key Result
 
 The main matched-comparison result shows that inference latency is strongly deployment-stack dependent. Each observation below compares engines under the same platform, operating-system configuration, model, and four-thread runtime setting; a value of 1 denotes the fastest engine for that matched condition.
@@ -48,10 +46,10 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Regenerate supplementary outputs:
+Generate outputs:
 
 ```bash
-python scripts/reproduce_outputs.py
+python scripts/produce_outputs.py
 ```
 
 The script writes figures under `outputs/figures/` and stores the run summary in `outputs/reproduction_summary.json`.
